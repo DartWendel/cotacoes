@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>WebServer</title>
+</head>
+<body>
+
+    <div class="main-content">
+    {{> header}}
+        <p>Procure por um ativo</p>
+
+        <form action="">
+            <input type="text" name="codigo-ativo" id="codigo-ativo" placeholder="Código do ativo">
+            <button>Busscar</button>
+        </form>
+        <h4></h4>
+        <p id="id"></p>
+        <p id="completed"></p>
+        <p id="title"></p>
+
+
+    </div>
+    {{> footer}}
+    
+</body>
+<script src="js/app.js"></script>
+</html>
